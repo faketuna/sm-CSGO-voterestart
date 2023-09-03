@@ -1,0 +1,46 @@
+"Phrases"
+{
+    "vrr prefix"
+    {
+        "en"        "{lightgreen}[VRR]{default} "
+        "jp"        "{lightgreen}[VRR]{default} "
+    }
+    "vrr vote success"
+    {
+        "#format"   "{1:d}"
+        "en"        "Vote successful. Round will restart in {1} seconds."
+        "jp"        "投票が可決されました。 ラウンドは後{1}秒でリスタートされます。"
+    }
+    "vrr vote fail"
+    {
+        "en"        "Vote failed."
+        "jp"        "投票が否決されました。"
+    }
+    "vrr vote initiate"
+    {
+        "en"        "Initiated round restart vote."
+        "jp"        "ラウンドリスタートの投票を開始しました。"
+    }
+    "vrr vote ask"
+    {
+        "en"        "Restart the current round?"
+        "jp"        "現在のラウンドを終了しますか？"
+    }
+    "vrr cmd wants restart"
+    {
+        "#format"   "{1:s},{2:d},{3:d}"
+        "en"        "{1} wants the restart round. Type !vrr in chat to vote. ({2}/{3})"
+        "jp"        "{1}がラウンドのリスタートを希望しています。!vrrをチャットに入力して投票出来ます。 ({2}/{3})"
+    }
+    "vrr cmd already"
+    {
+        "#format"   "{1:d},{2:d}"
+        "en"        "You're already voted! ({1}/{2})"
+        "jp"        "すでに投票済みです。 ({1}/{2})"
+    }
+    "vrr cmd restarting"
+    {
+        "en"        "Restarting round!"
+        "jp"        "ラウンドのリスタート中です！"
+    }
+}
